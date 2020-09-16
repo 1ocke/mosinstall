@@ -1,6 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 
 .main-content {
-  height: 100vh;
-  background-color: #d3d3d3;
+  height: max-content;
+  padding: 2rem 0;
+
+  background-color: #ebeef1;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
 }
