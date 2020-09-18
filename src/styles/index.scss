@@ -1,12 +1,22 @@
 @import '~bootstrap/scss/bootstrap';
 
-.main-content {
+.content-block {
   height: max-content;
   padding: 2rem 0;
+}
 
+.bg-custom--grey {
   background-color: #ebeef1;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.navbar-brand__text {
+  color: blue;
 }
