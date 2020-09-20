@@ -1,4 +1,14 @@
-@import '~bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/mixins";
+
+$link-color: #34495e;
+
+.x-link-only-hover {
+  @include hover {
+    text-decoration: none;
+    transition: box-shadow 0.33s ease-out;
+    box-shadow: 0 1px 0 0 currentColor;
+  }
+}
 
 .content-block {
   height: max-content;
@@ -20,3 +30,5 @@
 .navbar-brand__text {
   color: blue;
 }
+
+@import '~bootstrap/scss/bootstrap';
